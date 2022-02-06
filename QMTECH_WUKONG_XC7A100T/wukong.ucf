@@ -1,0 +1,28 @@
+#NET "clkg"  LOC = "E5";
+NET "clkg"  LOC = "M22";
+#NET "clkg" TNM_NET = "clk";
+NET "clkg" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "rst"  LOC = "H7";
+
+NET "LEDS[0]"  LOC = "H6";
+NET "LEDS[1]"  LOC = "J6";
+
+NET "LEDF[0]"  LOC = "H21";
+NET "LEDF[1]"  LOC = "H22";
+NET "LEDF[2]"  LOC = "K21";
+NET "LEDF[3]"  LOC = "J21";
+NET "LEDF[4]"  LOC = "H26";
+NET "LEDF[5]"  LOC = "G26";
+NET "LEDF[6]"  LOC = "G25";
+NET "LEDF[7]"  LOC = "F25";
+
+NET "BTNF[0]"  LOC = "G20";
+NET "BTNF[1]"  LOC = "G21";
+NET "BTNF[2]"  LOC = "F23";
+NET "BTNF[3]"  LOC = "E23";
+NET "BTNF[4]"  LOC = "E26";
+NET "BTNF[5]"  LOC = "D26";
+
+NET "KEY"  LOC = "J8";
+
+NET "*" IOSTANDARD = LVCMOS33;
